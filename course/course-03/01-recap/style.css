@@ -1,0 +1,24 @@
+/* this is a css CLASS selector */
+.text-1{
+    color: red;
+    font-size: 18px;
+}
+
+.text-1{
+    color: magenta;
+    background-color: aquamarine;
+}
+
+/* this is a css TAG selector */
+body{
+    color: darkgrey;
+}
+
+h2{
+    color: teal
+}
+
+/* this is a  css ID selector */
+#special-paragraph-1{
+    color: orangered;
+}

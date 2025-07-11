@@ -1,0 +1,7 @@
+/* this is an extrernal CSS file */
+/* this will have exculsive CSS syntax */
+.text-ext{
+    color: blueviolet;
+    background-color: lightblue;
+    border: 1px dashed yellow;
+}

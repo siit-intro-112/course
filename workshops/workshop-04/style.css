@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+nav{
+    height: 4rem;
+    padding: 0 3rem;
+}
+
+#header{
+    height: 70vh;
+    background-image: url('https://gogotraining.com/blog/wp-content/uploads/2016/10/Become-a-Computer-Programmer.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#header-content{
+    background-color: rgba(255, 255, 0, 0.257);
+    width: 50%;
+    margin: 3rem;
+    padding: 3rem;
+}
+
+
+.link-1 {
+    background-color: white;
+    padding: 0.5rem 1rem;
+}

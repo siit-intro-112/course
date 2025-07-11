@@ -1,0 +1,16 @@
+#menu {
+    background-color: #38495c;
+    border-radius: 8px;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: #fcf8f6;
+    padding: 8px 24px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.menu-item:hover{
+    background-color: orangered;
+}

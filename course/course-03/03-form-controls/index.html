@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form controls</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Form elements</h1>
+
+    <form action="thank-you.html">
+        <!-- textbox -->
+        <div class="form-section">
+            <label for="user-name">Name: </label>
+            <input type="text" id="user-name" placeholder="Your name here" value="Anonim">
+        </div>
+
+        <!-- password -->
+        <div class="form-section">
+            <label for="user-password">Password: </label>
+            <input type="password" id="user-password">
+        </div>
+
+        <!-- textarea -->
+        <div class="form-section">
+            <label for="user-message">Message: </label>
+            <textarea id="user-message"></textarea>
+        </div>
+
+        <!-- Checkboxes -->
+        <div class="form-section">
+            <h2>I like:</h2>
+            <input type="checkbox" id="like-ice-cream">
+            <label for="like-ice-cream">Ice-cream: </label>
+
+            <input type="checkbox" id="like-chocolate" checked>
+            <label for="like-chocolate">Chocolate: </label>
+        </div>
+
+        <!-- Checkboxes -->
+        <div class="form-section">
+            <h2>My sign is:</h2>
+            <input type="radio" id="sign-scorpio" name="sign">
+            <label for="sign-scorpio">Scorpio: </label>
+
+            <input type="radio" id="sign-leo" name="sign" checked>
+            <label for="sign-leo">Leo: </label>
+
+            <input type="radio" id="sign-virgo" name="sign">
+            <label for="sign-virgo">Virgo: </label>
+        </div>
+
+        <!-- Dropdown -->
+        <div class="form-section">
+            <label for="location">I live in: </label>
+            <select id="location">
+                <option value="AR">Arad</option>
+                <option value="BV" selected>Brasov</option>
+                <option value="B">Bucuresti</option>
+                <option value="CJ">Cluj</option>
+            </select>
+        </div>
+
+        <div class="form-section">
+            <button>Submit</button>
+        </div>
+    </form>
+
+
+</body>
+
+</html>

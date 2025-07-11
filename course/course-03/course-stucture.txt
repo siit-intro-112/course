@@ -1,0 +1,14 @@
+RECAP
+    1. CSS - Cascading Style Sheets
+    2. CSS - 
+        2.1 Inline - defined in the (opening) tag, by using the style attribute    <a style="color: red" href="#">link</a>
+        2.2. Internal - inside the HTML file, using the STYLE tag (in the HEAD tag)
+        2.3. External - inside a separate css style, linked with the main HTML file using the LINK tag (in the HEAD tag)
+        2.4. CSS selectors 
+            2.4.1. the TAG selector (css: .class-name, html: class="class-name")
+            2.4.2. (NEW) the TAG TYLE selector (css: TAGTYPE, html: class="class-name")
+            2.4.3. (NEW) the ID (identifier) selector (css: #id-value, html: id="id-value")
+    3. What is a web server? 
+        3.1 An application 
+        3.2 Having the role of the server (in a client - server achitecture) 
+        3.3 Providing resorces placed in a specific folder (usually public_html)

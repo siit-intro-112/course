@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explaining CSS</title>
+
+    <!-- loading the external CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* this is a CSS class definition. The dot is MANDATORY! for specifying the class name */
+        .text-1{
+            color: red; 
+            background-color: lightgreen;
+            border: 1px solid darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-1">Using CSS</h1>
+
+    <div>
+        <h2 class="text-1">CSS Intro</h2>
+        <p>In this course we learn about CSS</p>
+
+        <!-- inline styling using the style tag attribute  -->
+        <p style="color: teal; background-color: yellow;">CSS stands for Cascading Style Sheets</p>
+    </div>
+    
+
+    <div>
+        <!-- external CSS -->
+        <p class="text-ext">This text is externally styled</p>
+    </div>
+</body>
+</html>

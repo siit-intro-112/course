@@ -1,0 +1,12 @@
+Challenge 1: 
+
+Create a new web project based on the following specifications:
+
+a. Develop four HTML pages: Home, About Me, Gallery, and Contact.
+b. Implement a navigation menu to allow users to move between pages: Home | About me | Gallery | Contact.
+c. Each page should include a heading level 1 (<h1>) that displays the name of the page.
+d. On the HOME PAGE, add a section for each of the other pages. Each section should include:
+	d1. The name of the page.
+	d2. A short description.
+	d3. An anchor link to that page.
+e. On the GALLERY PAGE, display four images, each with a height of 200px. All images should be stored in a folder named imgs.
