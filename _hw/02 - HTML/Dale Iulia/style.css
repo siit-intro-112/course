@@ -1,0 +1,10 @@
+.Paragraph {
+    padding: 10px;
+    margin: 20px;
+    color: blue;
+    font-style: italic;
+}
+
+.textbox {
+    width: 100px;
+}

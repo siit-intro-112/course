@@ -1,0 +1,10 @@
+.descriere {
+    padding: 10px;
+    margin: 20px;
+    color: rgb(222, 46, 238);
+    font-style: italic;
+}
+
+input [type="text"] {
+    width: 100px;
+}

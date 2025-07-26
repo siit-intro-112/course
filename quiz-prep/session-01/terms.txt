@@ -1,0 +1,8 @@
+1. Files, Files extensions, 
+2. File extensions: 
+    - HTML .html  - Structure (layout - positioning, structuring) & Semantics
+    - CSS: .css    - styling 
+    - JavaScript: .js - interactions
+3. Syntax vs Semantics 
+    Syntax - rules of writing the code
+    Semanthics - the meaning of the code

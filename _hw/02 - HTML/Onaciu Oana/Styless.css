@@ -1,0 +1,12 @@
+.paragraph-style {
+  color: blue;
+  font-style: italic;
+}
+
+.textbox {
+  width: 100px;
+}
+
+.menu {
+  background-color: lightgray;
+}

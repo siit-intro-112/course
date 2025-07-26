@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+
+    background-color: white;
+
+    padding: 10px;
+}
+
+.menu a {
+
+    margin-right: 15px;
+    text-decoration: none;
+
+    color: #333;
+}
+
+.custom-paragraph {
+
+    padding: 10px;
+    margin: 20px;
+    color: blue;
+    font-style: italic;
+}
+
+.radio-group {
+
+    margin: 10px 0;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <a href="index.html">ACASA</a> |
+        <a href="caracteristici.html">CARACTERISTICI</a> |
+        <a href="contact.html">CONTACT</a>
+    </div>
+    <h1>Formular decontact</h1>
+    <form>
+        <label for="nume">Nume:</label>
+        <input type="text" id="nume" name="nume"><br><br>
+
+        <label>Genul cainelui:</label><br>
+        <input type="radio" id="mascul" name="gen" value="mascul">
+        <label for="mascul">Mascul</label><br>
+        <input type="radio" id="femela" name="gen" value="femela">
+        <label for="femela">Femela</label><br><br>
+
+        <input type="checkbox" id="abonare" name="abonare">
+        <label for="abonare">Aboneaza-ma la noutati</label><br><br>
+
+        <label for="culoare">Culoare preferata:</label>
+        <select id="culoare" name="culoare">
+            <option value="auriu">Auriu</option>
+            <option value="crem" selected>Crem</option>
+            <option value="alb">Alb</option>
+        </select><br><br>
+
+        <button type="submit">Trimite</button>
+    </form>
+</body>
+</html>

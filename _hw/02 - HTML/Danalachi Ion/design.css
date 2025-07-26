@@ -1,0 +1,50 @@
+.menu {
+    padding: 10px;
+    background-color: lightcyan;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button{
+    color: antiquewhite;
+    border-radius: 20px;
+    border: none;
+    background-color: brown;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+}
+.button2{    
+    color: antiquewhite;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(8, 88,44);
+    padding: 8px;
+    font-size: 20px;
+    margin-left: 1rem;
+    cursor: pointer;
+    display: flex;
+    }
+    .button3{
+    color: antiquewhite;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(201, 201, 8);
+    padding: 8px;
+    font-size: 20px;
+    margin-left: 1rem;
+    cursor: pointer;
+    display: flex;
+    }
+    button:hover {
+        background-color: cadetblue;
+    }
+    .textbox{
+     width: 100px;
+     padding: 16px;
+     border: 2px solid #lightcyan;
+     border-radius: 2px;
+     font-size: 8px;
+    }
