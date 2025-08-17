@@ -1,0 +1,5 @@
+2. Send to output all numbers from 1 to n (read n from input) dividing with 3 or 5.
+
+1. Citeste n
+2. Executa instructiunile din bucla pentru fiecare valoare a lui i pornind de la 1 la n, crescand i cu 1 la fiecare pas
+3. Daca i se imparte la 3 sau i se imparte la 5 atunci afiseaza i

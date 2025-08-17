@@ -1,0 +1,4 @@
+4. Given a list of elements, output the number of elements.
+
+1. Citeste lista de elemente (se poate folosi un vector)
+2. Afiseaza lungimea listei

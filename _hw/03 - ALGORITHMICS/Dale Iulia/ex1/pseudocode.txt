@@ -1,0 +1,7 @@
+1. Compute the sum of odd numbers from 1 to n
+
+1. Citeste n
+2. Variabila Suma primeste valoarea 0
+3. Executa instructiunile din bucla pentru fiecare valoare a lui i pornind de la 1 la n, crescand i cu 1 la fiecare pas
+4. Daca i este impar atunci variabila Suma devine Suma + i
+5. Afisaza suma

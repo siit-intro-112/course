@@ -1,0 +1,10 @@
+3. Find the minimum number in an array. 
+
+1. Citeste n
+2. Creeaza un vector A cu n elemente
+3. Repeta pasii de mai jos pentru fiecare i care merge de la 0 la n-1
+4. Citeste un numar de la utilizator si pune-l pe pozitia i in vectorul A
+5. Presupune ca primul element din vector (A[0]) este cel mai mic
+6. Parcurgi restul elementelor vectorului, de la al doilea (A[1]) pana la ultimul (A[N-1])
+7. Daca A[I] < Minim atunci inocuiesti Minim cu A[i]
+8. Afiseaza minim

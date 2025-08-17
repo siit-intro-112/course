@@ -1,0 +1,10 @@
+.counter {
+    border: 1px solid grey;
+    width: 15rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.display{
+    padding: 1rem;
+}
