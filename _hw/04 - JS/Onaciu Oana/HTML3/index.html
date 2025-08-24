@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 3</title>
+</head>
+<body>
+
+<h2>Task 3: Sum of even numbers between n and m</h2>
+
+<label for="n">n:</label>
+<input type="text" id="n"><br>
+
+<label for="m">m:</label>
+<input type="text" id="m"><br><br>
+
+<button onclick="sumEven()">Calculate Sum</button>
+
+<script>
+function sumEven() {
+    var n = Number(document.getElementById('n').value);
+    var m = Number(document.getElementById('m').value);
+
+    // Determine start and end
+    var start = n;
+    var end = m;
+    if (n > m) {
+        start = m;
+        end = n;
+    }
+
+    var sum = 0;
+    for (var i = start; i <= end; i++) {
+        // check if even
+        if (i % 2 == 0) {
+            sum = sum + i;
+        }
+    }
+
+    alert("Sum of even numbers between " + start + " and " + end + " is: " + sum);
+}
+</script>
+
+</body>
+</html>

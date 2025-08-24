@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 2</title>
+</head>
+<body>
+
+<h2>Task 2: Find max of 3 numbers</h2>
+
+<label for="a2">a:</label>
+<input type="text" id="a2"><br>
+
+<label for="b2">b:</label>
+<input type="text" id="b2"><br>
+
+<label for="c2">c:</label>
+<input type="text" id="c2"><br><br>
+
+<button onclick="findMax()">Find Max</button>
+
+<script>
+function findMax() {
+    var a = document.getElementById('a2').value;
+    var b = document.getElementById('b2').value;
+    var c = document.getElementById('c2').value;
+
+    // Convert inputs to numbers
+    a = Number(a);
+    b = Number(b);
+    c = Number(c);
+
+    // Array to hold valid numbers only
+    var numbers = [];
+
+    // Check if a is a number (mistake: using isNaN wrongly)
+    if (!isNaN(a)) {
+        numbers.push(a);
+    }
+    if (!isNaN(b)) {
+        numbers.push(b);
+    }
+    if (!isNaN(c)) {
+        numbers.push(c);
+    }
+
+    if (numbers.length === 0) {
+        alert("Please input at least one number!");
+        return;
+    }
+
+    // Find max manually
+    var max = numbers[0];
+    for (var i = 1; i < numbers.length; i++) {
+        if (numbers[i] > max) {
+            max = numbers[i];
+        }
+    }
+
+    alert("Maximum number is: " + max);
+}
+</script>
+
+</body>
+</html>

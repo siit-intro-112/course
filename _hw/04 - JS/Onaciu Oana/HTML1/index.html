@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 1</title>
+</head>
+<body>
+
+<h2>Task 1: Calculate ((a*b) + (b*c)) / (a+b)</h2>
+
+<label for="a">a:</label>
+<input type="text" id="a"><br>
+
+<label for="b">b:</label>
+<input type="text" id="b"><br>
+
+<label for="c">c:</label>
+<input type="text" id="c"><br><br>
+
+<button onclick="calculate()">Calculate</button>
+
+<script>
+function calculate() {
+    var a = document.getElementById('a').value;
+    var b = document.getElementById('b').value;
+    var c = document.getElementById('c').value;
+
+    // Convert to numbers (beginner mistake: no checking if these are actually numbers)
+    a = Number(a);
+    b = Number(b);
+    c = Number(c);
+
+    var result = ((a * b) + (b * c)) / (a + b);
+
+    alert("Result is: " + result);
+}
+</script>
+
+</body>
+</html>
